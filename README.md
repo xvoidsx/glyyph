@@ -13,7 +13,7 @@ glyyph is a minimal nostr client that focuses on ease of use over stuffing it fu
 
 glyyph is written in vanilla html/css/js. No fancy frameworks - it aims to be as minimal and quick as possible, so any modern browser can use it on any device.
 
-glyyph leverages the great `[nostr-tools](https://github.com/nbd-wtf/nostr-tools)` library for handling nostr operations.
+glyyph leverages the great [nostr-tools](https://github.com/nbd-wtf/nostr-tools) library for handling nostr operations.
 
 ### running glyyph
 
