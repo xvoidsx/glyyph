@@ -29,7 +29,7 @@ Next, grab `live-server` from npm - we use this to start up a local webserver so
 
 `npm install -g live-server`
 
-Now, you can run glyyph like this - ensure in the `/glyyph` folder, and start the webserver to serve glyyph. It will open it in your default browser, pointing to `http://127.0.0.1:8080`.
+Now, you can run glyyph like this - ensure you're in the `/glyyph` folder, and start the webserver to serve glyyph. It will open it in your default browser, pointing to `http://127.0.0.1:8080`.
 
 `live-server index.html` 
 
