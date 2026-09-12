@@ -8,8 +8,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="glyyph">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2307070a'/%3E%3Ctext x='29' y='45' font-family='monospace' font-size='38' font-weight='bold' text-anchor='middle' fill='%2366efff'%3EG%3C/text%3E%3Ctext x='34' y='45' font-family='monospace' font-size='38' font-weight='bold' text-anchor='middle' fill='%23ff38df' opacity='0.85'%3EG%3C/text%3E%3C/svg%3E">
   <title>glyyph // a quiet Nostr client</title>
   <style>
@@ -98,7 +98,7 @@
   <div class="modal" id="relay-modal" hidden><div class="dialog"><button class="close" data-close="relay-modal">×</button><h2>relay constellation</h2><p class="mini">One URL per line. Read/write relays are published as NIP-65 metadata when you save.</p><textarea class="editor" id="relay-editor"></textarea><div class="row"><button class="primary" id="relay-save">connect & save</button><button class="ghost" data-close="relay-modal">cancel</button></div></div></div>
 
   <script>
-    if('serviceWorker' in navigator&&/^https?:$/.test(location.protocol)){window.addEventListener('load',()=>{navigator.serviceWorker.register('/sw.js').catch(()=>{})})}
+    if('serviceWorker' in navigator&&/^https?:$/.test(location.protocol)){window.addEventListener('load',()=>{navigator.serviceWorker.register('sw.js').catch(()=>{})})}
   </script>
   <script type="module">
     import {nip19, finalizeEvent, getPublicKey, nip04, validateEvent, verifyEvent} from 'https://cdn.jsdelivr.net/npm/nostr-tools@2.17.2/+esm';
