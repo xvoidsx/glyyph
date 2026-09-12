@@ -1,7 +1,7 @@
 # glyyph
-glyyph is a minimal nostr client
+glyyph is a beautiful, minimal nostr client
 
-![image](https://github.com/user-attachments/assets/e54cd696-0886-406f-83f2-6a9aca60f32b)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/687ae4f6-9b71-4628-a26c-ff75e1393973" />
 
 glyyph is a minimal nostr client that focuses on ease of use over stuffing it full of features.
 
